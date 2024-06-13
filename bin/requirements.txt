@@ -1,3 +1,2 @@
-cairosvg
 favicon
 httpx[http2]

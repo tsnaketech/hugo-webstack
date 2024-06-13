@@ -1,95 +1,107 @@
-# 一个基于 Hugo 的静态响应式网址导航主题 
+# Hugo Webstack Theme
 
-```baash
-apt install libcairo2
-```
+This project is based on the purely static URL navigation website webstack.cc theme produced by the Hugo . It is a static responsive URL navigation theme based on Hugo. <br/>
 
-本项目是基于**纯静态**的网址导航网站 [webstack.cc](https://github.com/WebStackPage/WebStackPage.github.io) 制作的 [Hugo](https://gohugo.io/) 主题，是一个基于 Hugo 的静态响应式网址导航主题。<br/>
+## Theme demo address
 
-## 主题开源地址
+  - Site: https://nav.snaketech.net
+  - Source code: https://github.com/tsnaketech/navigation
 
-- GitHub：[https://github.com/shenweiyan/WebStack-Hugo](https://github.com/shenweiyan/WebStack-Hugo)
-- GitCode：[https://gitcode.com/shenweiyan/WebStack-Hugo](https://gitcode.com/shenweiyan/WebStack-Hugo/overview)
-- Gitee：[https://gitee.com/shenweiyan/WebStack-Hugo](https://gitee.com/shenweiyan/WebStack-Hugo)
+## Feature
 
-## 主题演示地址
+This is the Hugo version of the WebStack theme. You can use the following platform to host and deploy directly without a server. 
 
-- 站点：[https://bioit.top](https://bioit.top)
-- 源码：<https://github.com/shenweiyan/NavBioIT>
-
-
-## 特色功能
-
-这是 Hugo 版 WebStack 主题。可以借助下面的平台直接托管部署，无需服务器。
 - [Webify](https://webify.cloudbase.net/) | [Netlify](https://app.netlify.com/) | [Cloudflare Pages](https://pages.cloudflare.com) | [Vercel](https://vercel.com) | [Github Pages](https://pages.github.com/)
 
-总体说一下特点：
+Characteristics general:
 
-- 采用了一直以来最喜欢的 Hugo 部署方式，方便高效。
-- 主要的配置信息都集成到了 `config.toml`，一键完成各种自定义的配置。
-- 导航的各个信息都集成在 `data/webstack.yml` 文件中，方便后续增删改动。
+- The all-time favorite Hugo deployment method is adopted, which is convenient and efficient. 
+- The main configuration information is integrated into `config/_default/config.yaml`, complete various customized configurations with one click. 
+- All navigation information is integrated in `data/webstack.yml` file to facilitate subsequent additions, deletions, and changes.
+  
+```yaml
+- taxonomy: Favories
+  icon: far fa-star
+  links:
+
+    - title: Creative Fabrica
+      url: https://www.creativefabrica.com/
+      logo: creativefabrica.ico
+      description: Creative Fabrica is created in Amsterdam, one of the most inspirational cities in the world.
+
+    - title: GitHub Explore
+      url: https://github.com/explore
+      logo: github.svg
+      description: GitHub open source community.
 ```
-- taxonomy: 科研办公
-  icon: fas fa-flask fa-lg
-  list:
-    - term: 生物信息
-      links:
-        - title: NCBI
-          logo: ncbi.jpg
-          url: https://www.ncbi.nlm.nih.gov/
-          description: National Center for Biotechnology Information.
-        - title: Bioconda
-          logo: bioconda.jpg
-          url: https://anaconda.org/bioconda/
-          description: "Bioconda :: Anaconda.org."
-    - term: 云服务器
-      links:
-        - title: 阿里云
-          logo: 阿里云.jpg
-          url: https://www.aliyun.com/
-          description: 上云就上阿里云。
-        - title: 腾讯云
-          logo: 腾讯云.jpg
-          url: https://cloud.tencent.com/
-          description: 产业智变，云启未来。
+- Made mobile computer adaptive and night mode.
+- ~~Added search function and drop-down hot word options (based on Baidu API).~~
+- Added Yiyan and Zefeng weather APIs. 
+
+## Feature added
+- Font Awesome updated to version 6 free.
+- Using search items in a **yaml** file.
+- Using sidebar menu items in a **yaml** file.
+- Additional navigation using the `nav` directory in `content` and `data`.
+
+### Add a new navigation
+
+Create directories and files in the `content/nav` directory. The directory name is the navigation name, and the file name is the navigation name. For exemple `content/nav/programming.md`.
+
+```markdown
+---
+
+title: Programming
+search: true
+url: /programming
+type: nav
+file: programming
+
+---
 ```
-- 做了手机电脑自适应以及夜间模式。
-- 增加了搜索功能，以及下拉的热词选项（基于百度 API）。
-- 增加了一言、和风天气的 API。
 
-## 使用说明
+And add the navigation items in the `data/nav/programming.yml` file.
 
-这是一个开源的公益项目，你可以拿来制作自己的网址导航，也可以做与导航无关的网站。
+```yaml
+---
+- taxonomy: Programming
+  icon: fas fa-code
+  links:
+    - title: SnakeTech
+      url: https://github.com/tsnaketech
+      logo: snaketech.ico
+      description: SnakeTech GitHub account.
+---
+```
 
-WebStack 有非常多的魔改版本，这是其中一个。如果你对本主题进行了一些个性化调整，欢迎来本项目中 [issue](https://github.com/shenweiyan/WebStack-Hugo/issues) 分享一下！
+One last thing, add in `data/header.yml` file the new navigation.
 
+```yaml
+  - name : Programming
+    icon: fas fa-code fa-lg
+    link: /programming
+```
 
-## 安装说明
+## Instructions for use
 
-关于 Windows/Linux 下详细的安装与使用说明，请参考文档。
+This is an open source public project. You can use it to make your own website navigation, or you can make websites that have nothing to do with navigation.
 
-> [!TIP] 
-> 链接1：**[shenweiyan/Knowledge-Garden#10](https://github.com/shenweiyan/Knowledge-Garden/discussions/10)**
-> 
-> 链接2：**<https://weiyan.cc/kg-discussions-10>**
+WebStack has many modified versions, and this is one of them. If you have made some personalized adjustments to this theme, please the [issue](https://github.com/shenweiyan/WebStack-Hugo/issues) in this project share it in.
 
+If you want to search for icons, you'll find them at [Font Awesome](https://fontawesome.com/search?o=r&m=free).
 
-## 感谢
+## Grateful  
 
-本主题的部分代码参考了以下几个开源项目，特此感谢。
+Part of the code in this topic refers to the following open source projects, thank you very much. 
 
 - [WebStackPage/WebStackPage.github.io](https://github.com/WebStackPage/WebStackPage.github.io)
 - [liutongxu/liutongxu.github.io](https://github.com/liutongxu/liutongxu.github.io)
 - [iplaycode/webstack-hugo](https://github.com/iplaycode/webstack-hugo)
+- [shenweiyan/WebStack-Hugo](https://github.com/shenweiyan/WebStack-Hugo)
 
-感谢以下所有朋友对本主题所做出的贡献。  
-- [@yuanj82](https://github.com/yuanj82)        
-- [@yanbeiyinhanghang](https://github.com/yinhanghang)     
-- [@jetsung](https://github.com/jetsung)
+## To Do
 
-## 赞赏
-
-如果你觉得本项目对你有所帮助，欢迎请作者喝杯热咖啡 >.<
-
-![donate-wecaht-aliapy](https://user-images.githubusercontent.com/26101369/212630361-aa393be8-581e-4a97-bfe2-256e883791fb.jpg)
-
+- Change logo.
+- Favorites management with an additional yaml entry.
+- Review the SEO section.
+- Change weather api.

@@ -1,25 +1,18 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
-###### Import ########
-
 import argparse
 import asyncio
-import io
 import os
 from urllib.parse import urlparse
 
 import favicon
 import httpx
 
-###### Variable ######
-
 user_agent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.47 Safari/537.36'
 headers = {'User-Agent': user_agent}
 folder = "../static/assets/images/logos/"
 w, h = 128, 128
-
-###### Function ######
 
 def get_args():
     """
@@ -31,23 +24,21 @@ def get_args():
     parser = argparse.ArgumentParser(description='Download favicon from a website')
     parser.add_argument('-d', '--download', help='URL for direct download', required=False)
     parser.add_argument('-u', '--url', help='URL of the website', required=False)
-    parser.add_argument('-s', '--s2p', help='SVG to PNG', required=False)
+    # parser.add_argument('-s', '--s2p', help='SVG to PNG', required=False)
     parser.add_argument('-o', '--output', help='Output file', required=False)
     return parser.parse_args()
 
-def get_filename(folder, format, args, url=""):
+def get_filename(folder, format, args):
     """
-    Get the filename for a given URL and extension.
+    Returns the filename for the output file based on the given parameters.
 
     Args:
-        url (str): The URL of the file.
-        ext (str): The desired file extension.
-        folder (str): The folder to save the file in.
-        args (Namespace): The command-line arguments.
+        folder (str): The folder where the output file will be saved.
+        format (str): The format of the output file.
+        args (object): The arguments object containing the command line arguments.
 
     Returns:
-        str: The generated filename.
-
+        str: The filename for the output file.
     """
     if args.output:
         if has_extension(args.output):
@@ -73,6 +64,15 @@ def get_format(url):
     return file_extension[1:]
 
 def has_extension(file_name):
+    """
+    Check if a file has an extension.
+
+    Args:
+        file_name (str): The name of the file.
+
+    Returns:
+        bool: True if the file has an extension, False otherwise.
+    """
     _, file_extension = os.path.splitext(file_name)
     return file_extension != ""
 
@@ -97,11 +97,14 @@ def menu(logos):
 
 def save_icon(data_picture, args, folder, format, url=""):
     """
-    Save the icon image from the response to the specified filename.
+    Save an icon to a file.
 
     Args:
-        data_picture (bytes): The response object containing the icon image.
-        filename (str): The path and filename to save the icon image to.
+        data_picture (bytes): The icon data to be saved.
+        args (list): Additional arguments.
+        folder (str): The folder where the icon will be saved.
+        format (str): The file format of the icon.
+        url (str, optional): The URL of the icon. Defaults to "".
 
     Returns:
         None
@@ -112,21 +115,25 @@ def save_icon(data_picture, args, folder, format, url=""):
 
 def svg2png(data_picture, width, height):
     """
-    Convert an SVG image to a PNG image.
+    Convert an SVG image to PNG format.
 
     Args:
-        args (Namespace): The command-line arguments.
-        data_picture (bytes): The SVG image data.
-        format (str): The file format of the image.
+        data_picture (str or bytes): The SVG image data as a string or bytes.
         width (int): The desired width of the PNG image.
         height (int): The desired height of the PNG image.
 
     Returns:
-        bytes: The PNG image data.
+        bytes: The PNG image data as bytes.
+
+    Raises:
+        TypeError: If the `data_picture` is not a string or bytes.
+
     """
+    import io
     import cairosvg
+
     png_output = io.BytesIO()
-    if type(data_picture) == "str":
+    if isinstance(data_picture, str):
         data_picture = data_picture.encode('utf-8')
     cairosvg.svg2png(bytestring=data_picture, output_width=width, output_height=height, write_to=png_output)
     png_data = png_output.getvalue()
@@ -138,14 +145,14 @@ async def main():
     args = get_args()
     client = httpx.AsyncClient(http2=True)
     
-    if args.s2p:
-        filename = os.path.join(folder,args.s2p)
-        with open(filename, 'r') as f:
-            svg_data = f.read()
-        data_picture = svg2png(svg_data, w, h)
-        save_icon(data_picture, args, folder, format)
-        exit(0)
-    elif args.url:
+    # if args.s2p:
+    #     filename = os.path.join(folder,args.s2p)
+    #     with open(filename, 'r') as f:
+    #         svg_data = f.read()
+    #     data_picture = svg2png(svg_data, w, h)
+    #     save_icon(data_picture, args, folder, format)
+    #     exit(0)
+    if args.url:
         logos = favicon.get(args.url, headers=headers)
         choice = menu(logos)
         url = choice.url
@@ -157,16 +164,13 @@ async def main():
     response = await client.get(url, headers=headers)
     data_picture = response.content
     
-    if url.endswith('.svg'):
-        format = 'svg'
-        # save_icon(data_picture, args, folder, format, url)
-        # data_picture = svg2png(data_picture, w, h)
-        # format = 'png'
+    # if url.endswith('.svg'):
+    #     format = 'svg'
+    #     save_icon(data_picture, args, folder, format, url)
+    #     data_picture = svg2png(data_picture, w, h)
+    #     format = 'png'
         
     save_icon(data_picture, args, folder, format, url)
 
-###### Program #######
-
 if __name__ == '__main__':
     asyncio.run(main())
-
