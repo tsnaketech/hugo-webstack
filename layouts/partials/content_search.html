@@ -1,0 +1,49 @@
+{{ if .search }}
+    <div class="header-big  post-top css-color mb-4" id="search-bg">
+        <div class="s-search">
+            <div id="search" class="s-search mx-auto">
+                <div id="search-list-menu" class="hide-type-list">
+                    <div class="s-type text-center">
+                        <div class="s-type-list big">
+                            <div class="anchor" style="position: absolute; left: 50%; opacity: 0;"></div>
+                            {{ range page.Site.Data.search }}
+                                {{ if .group }}
+                                    {{ if .links }}
+                                        {{ $element := index .links 0 }}
+                                        <label for="type-{{ lower $element.title}}" data-id="group-{{ lower .group }}"><span>{{ .title }}</span></label>
+                                    {{ end }}
+                                {{ end }}
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+                <form action="https://www.google.com/search?q=" method="get" target="_blank" class="super-search-fm">
+                    <input type="text" id="search-text" class="form-control smart-tips search-key" 
+                        zhannei="" placeholder="Google Search" style="outline:0" autocomplete="off">
+                    <button class="submit" type="submit"><i class="iconfont icon-search"></i></button>
+                </form>
+                <div id="search-list" class="hide-type-list">
+                    {{ range page.Site.Data.search }}
+                        {{ if .group }}
+                            <div class="search-group group-{{ lower .group }}">
+                                <ul class="search-type">
+                                    {{ if .links }}
+                                        {{ range .links }}
+                                            <li>
+                                                <input hidden="" type="radio" name="type" id="type-{{ lower .title }}" value="{{ .url }}" data-placeholder="{{ .placeholder }}">
+                                                <label for="type-{{ lower .title }}"><span class="text-muted">{{ .title }}</span></label>
+                                            </li>
+                                        {{ end }}
+                                    {{ end }}
+                                </ul>
+                            </div>
+                        {{ end }}
+                    {{ end }}
+                </div>
+                <div class="card search-smart-tips search-hot-text">
+                    <ul id="word" style="display: none"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+{{ end }}

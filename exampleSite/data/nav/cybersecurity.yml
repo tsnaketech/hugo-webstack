@@ -1,0 +1,121 @@
+---
+
+- taxonomy: Blog & Forum
+  icon: fas fa-blog
+  list: 
+    - term: ASM
+      links: 
+        - title: Azaeria Labs
+          url: https://azeria-labs.com/writing-arm-assembly-part-1/
+          logo: azeria-labs.ico
+          description: 
+
+    - term: Forum
+      links: 
+        - title: Reverse Engineering
+          url: https://reverseengineering.stackexchange.com/
+          logo: stackexchange.png
+          description:
+
+        - title: 0x00sec
+          url: https://0x00sec.org/
+          logo: 0x00sec.png
+          description: 
+
+- taxonomy: Challanges
+  icon: fas fa-unlock
+  list: 
+    - term: Ransoware
+      links: 
+        - title: Crackmes
+          url: https://crackmes.one/
+          logo: crackmes.png
+          description: 
+          
+        - title: Hack The Box
+          url: https://www.hackthebox.com/
+          logo: hackthebox.png
+          description: 
+
+        - title: Newbie Contest
+          url: https://www.newbiecontest.org/
+          logo: newbiecontest.png
+          description: 
+
+        - title: OverTheWire
+          url: https://overthewire.org/wargames/
+          logo: https://overthewire.org/img/favicon.ico
+          description: 
+
+        - title: Root-Me
+          url: https://www.root-me.org/
+          logo: root-me.svg
+          description:  
+
+        - title: TryHackMe
+          url: https://tryhackme.com/
+          logo: tryhackme.png
+          description: 
+
+- taxonomy: Crypto
+  icon: fas fa-key
+  list: 
+    - term: Ransoware
+      links: 
+        - title: ID Ransomware
+          url: https://id-ransomware.malwarehunterteam.com/
+          logo: malwarehunterteam.png
+          description: Send an encrypted file or instructions to identify the ransomware infecting your computer.
+
+        - title: No More Ransom
+          url: https://www.nomoreransom.org/en/index.html
+          logo: nomoreransom.png
+          description: unlocking your digital life without paying your attackers.
+
+- taxonomy: Leaning
+  icon: fas fa-book-open-reader
+  links: 
+    - title: Intel Techniques
+      url: https://inteltechniques.com/
+      logo: inteltechniques.ico
+      description: OSINT training course
+
+    - title: SecNumAcademie
+      url: https://secnumacademie.gouv.fr/
+      logo: https://secnumacademie.gouv.fr/resources/assets/images/favicon.ico
+      description: Mooc ANSSI
+
+- taxonomy: Low Level
+  icon: fas fa-turn-down
+  links:
+    - title: Shell-Storm
+      url: http://shell-storm.org/index.html
+      logo: shell-storm.png
+      description:
+
+- taxonomy: Repo
+  icon: fas fa-diagram-project
+  list: 
+    - term: Library
+      links: 
+        - title: SecLists
+          url: https://github.com/danielmiessler/SecLists
+          logo: osintframework.png
+          description: Collection of multiple types of lists used during security assessments.
+
+- taxonomy: Vulnerabilities
+  icon: fas fa-eye
+  links: 
+    - title: Vigilance
+      url: https://vigilance.fr/
+      logo: vigilance.png
+      description: Vulnerability bulletin
+
+- taxonomy: Wordlists
+  icon: fas fa-arrow-down-a-z
+  links: 
+    - title: WeakPass
+      url: https://weakpass.com/wordlist
+      logo: 
+      description: Wordlist
+---

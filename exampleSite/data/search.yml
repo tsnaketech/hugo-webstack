@@ -1,0 +1,50 @@
+---
+
+- group: Search
+  title: Search
+  links:
+    - title: Google
+      url: https://www.google.com/search?q=
+      placeholder: Search Google
+    - title: DuckDuckGo
+      url: https://duckduckgo.com/?q=
+      placeholder: Search DuckDuckGo
+    - title: Ecosia
+      url: https://www.ecosia.org/search?q=
+      placeholder: Search Ecosia
+    - title: Bing
+      url: https://fr.bing.com/search?q=
+      placeholder: Search Bing
+    - title: Qwant
+      url: https://www.qwant.com/?l=fr&q=
+      placeholder: Search Qwant
+    
+- group: Artifact
+  title: Artifact
+  links:
+    - title: GitHub
+      url: https://gohugo.io/getting-started/usage/
+      placeholder: Search GitHub
+
+- group: Document
+  title: Document
+  links:
+    - title: GoogleSholar
+      url: https://scholar.google.com/scholar?q=
+      placeholder: Search Google Scholar
+    - title: HAL Science
+      url: https://hal.science/search/index?q=
+      placeholder: Search HAL Science
+
+- group: Resource
+  title: Resource
+  links:
+    - title: FontAwesome
+      url: https://fontawesome.com/search?&m=free&q=
+      placeholder: Search icon on FontAwesome
+
+- group: Lifestyle
+  title: Lifestyle
+
+- group: Job Search
+  title: Job Search

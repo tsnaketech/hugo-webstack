@@ -1,0 +1,309 @@
+---
+
+- taxonomy: Favories
+  icon: far fa-star
+  links:
+
+    - title: Creative Fabrica
+      url: https://www.creativefabrica.com/
+      logo: creativefabrica.ico
+      description: Creative Fabrica is created in Amsterdam, one of the most inspirational cities in the world.
+
+    - title: GitHub Explore
+      url: https://github.com/explore
+      logo: github.svg
+      description: GitHub open source community.
+
+    - title: Product Hunt
+      url: https://www.producthunt.com/
+      logo: producthunt.ico
+      description: Product Hunt is a curation of the best new products, every day.
+
+    - title: Regex101
+      url: https://regex101.com/
+      logo: regex101.ico
+      description: Regular expression tester.
+
+    - title: SimilarWeb
+      url: https://www.similarweb.com/
+      logo: similarweb.png
+      description: Website traffic analysis.
+
+    - title: Splunk Base
+      url: https://splunkbase.splunk.com/
+      logo: splunk.ico
+      description: Splunk Apps and Add-ons.
+
+    - title: TryHackMe
+      url: https://tryhackme.com/
+      logo: tryhackme.png
+      description: 
+
+- taxonomy: Anglaiiiiiiiiiis
+  icon: fas fa-language
+  links:
+    - title: Global Exam
+      url: https://auth.global-exam.com/
+      logo: global-exam.png
+      description: Global Exam is a platform that provides online training for language proficiency tests.
+
+    - title: BabelCoach
+      url: https://babelcoach.net/
+      logo: babelcoach.png
+      description: BabelCoach is a platform that provides online training for language proficiency tests.
+
+    - title: WordReference
+      url: https://www.wordreference.com/
+      logo: wordreference.svg
+      description: WordReference is an online translation dictionary.
+
+- taxonomy: OSINT
+  icon: fas fa-user-secret
+  list:
+    - term: OSINT
+      links:
+        - title: ArcGIS - Gaza
+          url: https://storymaps.arcgis.com/stories/2e746151991643e39e64780f0674f7dd
+          logo: arcgis.png
+          description: "Interactive Map: Israel's Operation in Gaza"
+
+        - title: LiveUAMap
+          url: https://israelpalestine.liveuamap.com/
+          logo: liveuamap.svg
+          description: Live map of international conflicts
+          
+        - title: War Mapper
+          url: https://www.warmapper.org/israel
+          logo: warmapper.ico
+          description: Presenting confirmed territorial control changes
+          
+        - title: WhatMyName
+          url: https://whatsmyname.app/
+          logo: whatmyname.jpg
+          description: Username search engine
+
+        - title: crt.sh
+          url: https://crt.sh/?
+          logo: crt.ico
+          description: Certificate search engine
+
+        - title: Geoguessr
+          url: https://www.geoguessr.com/
+          logo: geoguessr.png
+          description: Explore the world!
+
+        - title: Osint Framework          
+          url: https://osintframework.com/
+          logo: osintframework.png
+          description: OSINT Framework is a collection of various OSINT tools.
+
+        - title: Shodan
+          url: https://www.shodan.io/
+          logo: shodan.png
+          description: Shodan is the world's first search engine for Internet-connected devices.
+
+        - title: Have I Been Pwned
+          url: https://haveibeenpwned.com/
+          logo: haveibeenpwned.png
+          description: Check if you have an account that has been compromised in a data breach.
+
+- taxonomy: Design Tools
+  icon: fas fa-tools fa-lg
+  list:
+    - term: Creative Graphic
+      links:
+        - title: Canva
+          url: https://www.canva.com/
+          logo: canva.svg
+          description: Create beautiful designs with your team.
+
+    - term: Online Color Palettes
+      links:
+        - title: Khroma
+          url: http://khroma.co/generator/
+          logo: khroma.png
+          description: Khroma is the fastest way to discover, search, and save color combos you'll want to use.
+
+        - title: UIGradients
+          url: https://uigradients.com
+          logo: uigradients.png
+          description: Beautiful colored gradients.
+
+        - title: Flat UI Colors
+          url: http://flatuicolors.com/
+          logo: flatuicolors.ico
+          description: Copy Paste Color Palette from Flat UI Theme.
+          
+        - title: Coolors
+          url: https://coolors.co/
+          logo: coolors.png
+          description: The super-fast color schemes generator!
+
+        - title: Color Hunt
+          url: http://www.colorhunt.co/
+          logo: colorhunt.svg
+          description: Beautiful Color Palettes.
+          
+        - title: Adobe Color CC
+          url: https://color.adobe.com/fr/create/color-wheel
+          logo: adobe-color-cc.png
+          description: Create color schemes with the color wheel or browse thousands of color combinations from the Color community.
+
+        - title: Flat UI Color Picker
+          url: http://www.flatuicolorpicker.com/
+          logo: flatuicolorpicker.png
+          description: Best Flat Colors For UI Design.
+
+        - title: Pixelfika
+          url: https://pixelfika.com/colors/
+          logo: pixelfika.png
+          description: Beautiful colors and designs to your inbox every week.
+
+        - title: Vanschneider
+          url: http://www.vanschneider.com/colors
+          logo: vanschneider.png
+          description: Color Claim was created in 2012 by Tobias van Schneider with the goal to collect & combine unique colors for my future projects.
+
+    - term: Google Extensions
+      links:
+        - title: Wappalyzer
+          url: https://www.wappalyzer.com/
+          logo: wappalyzer.png
+          description: Identify technology on websites.
+
+        - title: Sizzy
+          url: https://sizzy.co/
+          logo: sizzy.png
+          description: A tool for developing responsive websites crazy-fast.
+
+        - title: CSSPeeper
+          url: https://csspeeper.com/
+          logo: csspeeper.png
+          description: Smart CSS viewer tailored for Designers.
+
+        - title: Mustsee
+          url: http://mustsee.earth/
+          logo: mustsee.png
+          description: Discover the world's most beautiful places at every opened tab.
+
+- taxonomy: Information
+  icon: fas fa-pencil-alt fa-lg
+  list:
+    - term: Blogs & Forums
+      links:
+        - title: Inoreader
+          url: https://www.inoreader.com/
+          logo: inoreader.png
+          description: Regain control of your news subscriptions.
+
+        - title: Hacker News
+          url: https://news.ycombinator.com/
+          logo: hacker-news.svg
+          description: A social news website about computer hackers and startup companies.
+
+        - title: Noted.lol
+          url: https://noted.lol/
+          logo: noted.lol.png
+          description: Maximize Your Homelab Potential with Self-Hosting and Open-Source Solutions.
+
+        - title: Stephane Robert
+          url: https://blog.stephane-robert.info/
+          logo: stephane-robert.svg
+          description: Blog DevSecOps.
+
+        - title: Unix Experience
+          url: https://www.unix-experience.fr/
+          logo: unix-experience.png
+          description: Blog Linux.
+
+    - term: Datasets
+      links:
+        - title: OpenDataSoft
+          url: https://public.opendatasoft.com
+          logo: opendatasoft.png
+          description: OpenDataSoft is a data sharing platform that allows users to access, visualize, and share data.
+
+    - term: National data
+      links:
+        - title: API.gouv.fr
+          url: https://api.gouv.fr/
+          logo: mariane.svg
+          description: API French.
+
+        - title: Cartoradio
+          url: https://www.cartoradio.fr/#/cartographie
+          logo: cartoradio.png
+          description: Map of sites and radioelectric measurements.
+
+        - title: CodeGouv
+          url: https://code.gouv.fr/public/
+          logo: mariane.svg
+          description: Development French.
+
+        - title: Data.gouv.fr
+          url: https://www.data.gouv.fr/fr/
+          logo: mariane.svg
+          description: Datasets French.
+
+        - title: PWCCN
+          url: https://www.pwccn.com/en/research-and-insights.html
+          logo: pwccn.png
+          description: Chineses information.
+
+- taxonomy: Cryptocurrency
+  icon: fas fa-wallet fa-lg
+  links:
+    - title: CoinMarketCap
+      url: https://coinmarketcap.com/fr/
+      logo: coinmarketcap.png
+      description: Cryptocurrency market cap rankings, charts, and more.
+
+- taxonomy: Spelling
+  icon: fas fa-spell-check fa-lg
+  links:
+    - title: Reverso
+      url: https://www.reverso.net/orthographe/correcteur-francais/
+      logo: reverso.png
+      description: AI-based French corrector.
+
+    - title: BonPatron
+      url: https://bonpatron.com/
+      logo: bonpatron.png
+      description: French grammar checker.
+
+    - title: Scribens
+      url: https://www.scribens.fr/
+      logo: scribens.png
+      description: Spelling & grammar checker.
+
+    - title: Language Tools
+      url: https://languagetool.org/fr/
+      logo: languagetool.png
+      description: More than just a spellchecker
+
+- taxonomy: Streaming
+  icon: fas fa-mug-hot fa-lg
+  list:
+    - term: Anime
+      links:
+        - title: Anime-Sama
+          url: https://anime-sama.fr/
+          logo: anime-sama.png
+          description: Regain control of your news subscriptions.
+
+    - term: TV
+      links:
+        - title:
+          url: https://www.freeview.co.uk/
+          logo: freeview.png
+          description: Regain control of your news subscriptions.
+          
+        - title: TV Direct
+          url: https://www.tv-direct.fr/
+          logo: tv-direct.png
+          description: Regain control of your news subscriptions.
+      
+  # - title: Phrasebank
+  #   logo: assets/images/logos/1519782_colorful_document_note_office_paper_icon.png
+  #   url: https://www.phrasebank.manchester.ac.uk/
+  #   description: SCI 论文词法短语库

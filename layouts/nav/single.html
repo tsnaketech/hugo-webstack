@@ -1,0 +1,24 @@
+{{ $folder := .Params.type}}
+{{ $file := .Params.file}}
+{{ $file := lower $file}}
+{{ $ctx := dict 
+  "page" . 
+  "search" .Params.search
+  "data" (index .Site.Data $folder $file)
+}}
+
+{{ partial "header.html" $ctx }}
+
+{{ partial "sidebar.html" $ctx }}
+
+{{ partial "content_header.html" $ctx }}
+
+{{ partial "content_search.html" $ctx }}
+
+{{ partial "content_main.html" $ctx }}
+
+{{ partial "content_footer.html" $ctx }}
+
+{{ partial "modal_search.html" $ctx }}
+
+{{ partial "footer.html" $ctx }}

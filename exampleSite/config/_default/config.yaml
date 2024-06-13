@@ -1,0 +1,55 @@
+baseURL: "http://192.168.1.109/"
+languageCode: "en-US"
+title  : "Nav SnakeTech"
+theme  : "hugo-webstack"
+preserveTaxonomyNames: true
+disablePathToLower: true
+hasCJKLanguage: true
+publishDir: "public"				# Site static file save directory
+
+params:
+  author: "snaketech"
+  description: "Navigation for SnakeTech"
+  keywords: "sitemap,webstack,hugo"
+  about: "https://github.com/shenweiyan/Knowledge-Garden/discussions/10"    # 左侧导航栏的"关于导航"页面(./about)
+  repository: "https://github.com/snaketech/hugo-webstack"  
+  enablePreLoad: false    # Pre-loaded animation before the site fully opens
+  textPreLoad: "Nav SnakeTech"    # Preloaded animated text, only works if enablePreLoad:true.
+  expandSidebar: true    # Expand left side navigation bar by default
+  logosPath: "../../assets/images/logos"    # Each navigational address of the website where the logo is stored
+  defaultLogo: "../../assets/images/logos/default.png"    # The default logo to be shown when the logo resource doesn't exist or is wrong; if this parameter is empty, the corresponding logo will be loaded until success.
+  nightMode: true    # Default site is dark (night) mode
+  yiyan: true    # 默认启用一言服务
+
+  search: true
+
+  seo:    
+    GoogleAdsClient: ''    # Google AdSense 
+
+  qweather:
+    #key: "085791e805a24491b43b06cf58ab31e7"
+
+  images:
+    favicon: "../../assets/images/favicon.png"
+    #searchImageL: "assets/images/bg-dna.jpg"    # 搜索部分浅色背景图
+    #searchImageD: "assets/images/bg-dna.jpg"    # 搜索部分深色背景图
+    logoExpandLight: "../../assets/images/bt8-expand-light.png"
+    logoExpandDark: "../../assets/images/bt8-expand-dark.png"
+    logoCollapseLight: "../../assets/images/bt.png"
+    logoCollapseDark: "../../assets/images/bt.png"
+    
+  footer:
+    copyright: '&copy; {year} By [SnakeTech](https://www.snaketech.net/) | Idea by [QIN2DIM](https://nav.echosec.top/) | Based on [WebStack-Hugo](https://github.com/shenweiyan/WebStack-Hugo) <br/>'
+    #https://github.com/QIN2DIM/blog-nav
+
+contentTypes:
+  nav:
+    path: "nav" # Relative path for "nav" content
+    layout: "nav/single" # Model used for individual "nav" type content
+    single:
+      layout: "nav/single"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

@@ -1,0 +1,67 @@
+---
+
+- taxonomy: Call Of Duty
+  links:
+  - title: Dexerto
+    url: https://www.dexerto.fr/call-of-duty/
+    logo: dexerto.png
+    description: News and guides for Call of Duty.
+
+  - title: Warzone Tactical Map
+    url: https://warzonetacmap.online/maps/urzikstan/
+    logo: warzonetacmap.png
+    description: Interactive map for Zombie.
+
+  - title: WZStats
+    url: https://wzstats.gg/mw3/meta
+    logo: wzstats.png
+    description: Stats for Warzone.
+
+- taxonomy: Dofus
+  links:
+  - title: Dofus
+    url: https://www.dofus.com/en
+    logo: ankama.png
+    description: The new order.
+
+  - title: DofusDB
+    url: https://dofusdb.fr/fr/
+    logo: dofusdb.png
+    description: Database for Dofus.
+
+  - title: NoKazu
+    url: https://nokazu.com/
+    logo: nokazu.ico
+    description: Dofus for the noob.
+    
+  - title: CleanPNG
+    url: https://www.cleanpng.com/free/dofus.html
+    logo: cleanpng.ico
+    description: PNG dofus images.
+
+- taxonomy: GTA5
+  links:
+  - title: Grand Theft Auto 5
+    url: https://www.grandtheftauto5.fr/
+    logo: grandtheftauto5.png
+    description: French website. 
+
+- taxonomy: League Of Legend
+  links:
+  - title: League Of Legend
+    url: https://www.leagueoflegends.com/en-us/
+    logo: leagueoflegends.png
+    description: Official website.
+
+  - title: League Of Graph
+    url: https://www.leagueofgraphs.com/fr/
+    logo: leagueofgraphs.png
+    description: Stats for League Of Legend.
+
+- taxonomy: Other
+  links:
+  - title: Traduction Jeux
+    url: https://traductionjeux.com/
+    logo: traductionjeux.ico
+    description:
+---

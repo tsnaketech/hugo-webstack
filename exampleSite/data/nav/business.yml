@@ -1,0 +1,83 @@
+---
+
+- taxonomy: Creative
+  icon: fas fa-pencil
+  links:
+    - title: Canva
+      url: https://www.canva.com/
+      logo: canva.svg
+      description: Create beautiful designs with your team.
+
+
+- taxonomy: Marketing
+  icon: fas fa-envelope
+  list:
+    - term: Seller
+      links:
+      - title: SendOwl
+        url: https://www.sendowl.com/
+        logo: sendowl.png
+        description: Sell digital products online.
+
+- taxonomy: Learning
+  icon: fas fa-book
+  list:
+    - term: Marketing
+      links:
+      - title: Le Guide Ultime du Site Web Persuasif
+        url: https://marketingmania.fr/sitepersuasif
+        logo: marketingmania.ico
+        description: Découvrez comment créer un site web qui convertit vos visiteurs en clients.
+
+- taxonomy: Search
+  icon: fas fa-magnifying-glass-dollar
+  list:
+    - term: Company
+      links:
+      - title: Crunchbase
+        url: https://www.crunchbase.com/
+        logo: crunchbase.png
+        description: Discover innovative companies and the people behind them.
+
+- taxonomy: Social
+  icon: fas fa-user
+  list:
+    - term: Marketing
+      links:
+      - title: Buffer
+        url: https://buffer.com/
+        logo: buffer.svg
+        description: Social media management platform.
+
+- taxonomy: SEO
+  icon: fas fa-chart-simple
+  list:
+    - term: AI
+      links:
+      - title: SEO.ai
+        url: https://seo.ai/
+        logo: seoai.png
+        description: AI-powered SEO platform.
+
+      - title: Surfer SEO
+        url: https://surferseo.com/
+        logo: surferseo.ico
+        description: Optimize your content with Surfer's on-page SEO tool.
+      
+    - term: Keywords
+      links:
+      - title: Ubersuggest
+        url: https://neilpatel.com/fr/ubersuggest/
+        logo: neilpatel.png
+        description: Outil de recherche de mots-clés gratuit.
+
+- taxonomy: Web Site
+  icon: fas fa-globe
+  list:
+    - term: Create
+      links:
+      - title: Carrd
+        url: https://carrd.co/
+        logo: carrd.ico
+        description: Simple, free, fully responsive one-page sites for pretty much anything.
+---

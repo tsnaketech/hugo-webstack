@@ -1,0 +1,39 @@
+/*** modal_search ***/
+.s-type{position:absolute;top:0;left:0;z-index:23;width:75px}
+.s-type>span{display:block;height:31px;width:75px}
+
+.type-text{position:absolute;left:0;width:100px;padding-left:4pt;font-size:1pc;line-height:31px}
+.type-text:after{content:"\e793";font-family:"iconfont";font-size:12px;margin:0 0 0 1px}
+
+/*** Night day mode ***/
+
+/* Navigation scrollbar */
+.io-grey-mode .big-header-banner:not(.header-bg) .header-mini-btn path{stroke:#555;}
+.io-grey-mode .big-header-banner:not(.header-bg) .header-mini-btn label:hover path{stroke:#555;}
+
+.io-black-mode .big-header-banner:not(.header-bg) .header-mini-btn path{stroke:#ffffff;}
+.io-black-mode .big-header-banner:not(.header-bg) .header-mini-btn label:hover path{stroke:#ffffff;}
+
+/* Border on bottom logo */
+
+.io-grey-mode .sidebar-logo.border-bottom.border-color .logo.overflow-hidden{border-bottom:2px solid #313437}
+.io-black-mode .sidebar-logo.border-bottom.border-color .logo.overflow-hidden{border-bottom:2px solid #5d5d5d}
+
+/* Border on each bottom item sidebar-menu-inner */
+.io-grey-mode .sidebar-menu-inner ul li a{border-bottom:2px solid #313437}
+.io-black-mode .sidebar-menu-inner ul li a{border-bottom:2px solid #5d5d5d}
+
+/* navbar-nav */
+.io-grey-mode .big-header-banner:not(.header-bg) .page-header .navbar-nav li a,.big-header-banner:not(.header-bg) .navbar-menu a:not(.dropdown-item){color:#555;}
+.io-grey-mode .big-header-banner:not(.header-bg) .page-header .navbar-nav li a:hover,.big-header-banner:not(.header-bg) .navbar-menu a:not(.dropdown-item):hover{color:#dc3545;}
+
+.io-black-mode .big-header-banner:not(.header-bg) .page-header .navbar-nav li a,.big-header-banner:not(.header-bg) .navbar-menu a:not(.dropdown-item){color:#ffffff;}
+.io-black-mode .big-header-banner:not(.header-bg) .page-header .navbar-nav li a:hover,.big-header-banner:not(.header-bg) .navbar-menu a:not(.dropdown-item):hover{color:#dc3545;}
+
+/* text-muted */
+.io-grey-mode .header-big:not(.no-bg) .text-muted,.header-big:not(.no-bg) .search-type .menu-item a,.header-big:not(.no-bg) .big-title .h1{color:#252525!important}
+.io-black-mode .header-big:not(.no-bg) .text-muted,.header-big:not(.no-bg) .search-type .menu-item a,.header-big:not(.no-bg) .big-title .h1{color:#ffffff!important}
+
+/* Home search box font color */
+.io-grey-mode .header-big:not(.no-bg) .s-type-list{color:#202ec9}
+.io-black-mode .header-big:not(.no-bg) .s-type-list{color:#20c997}

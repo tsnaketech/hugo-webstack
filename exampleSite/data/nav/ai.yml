@@ -1,0 +1,137 @@
+---
+
+- taxonomy: Chat
+  icon: fas fa-comments
+  links: 
+
+    - title: ChatGPT
+      url: https://chat.openai.com/
+      logo: chatgpt.png
+      description: The new order
+
+    - title: ClaudeAI
+      url: https://claude.ai/chats
+      logo: claude.png
+      description: Cluade3 Opus!!     
+
+    - title: Gemini
+      url: https://gemini.google.com/app
+      logo: gemini.png
+      description: Gemini chat playground
+
+    - title: MistralAI
+      url: https://chat.mistral.ai/chat
+      logo: mistral.png
+      description: Frontier AI in your hands
+
+- taxonomy: Image
+  icon: fas fa-image
+  list:
+    - term: Creative
+      links:
+        - title: Microsoft Designer
+          url: https://designer.microsoft.com/    
+          logo: designer.svg
+          description: Image to Design
+          fav: true
+
+        - title: LiblibAI
+          url: https://www.liblib.art/
+          logo: liblib.ico
+          description: Chinese GenAI 创作平台
+
+        - title: Leonardo.AI
+          url: https://app.leonardo.ai/
+          logo: leonardo.svg
+          description: AI art application
+        
+        - title: Shakker
+          url: https://www.shakker.ai/
+          logo: shakker.ico
+          description: AI art application
+
+        - title: StickerBaker
+          url: https://stickerbaker.com/
+          logo: stickerbaker.png
+          description: 
+
+    - term: Graphic
+      links:
+        - title: VectorizerAI
+          url: https://vectorizer.ai/
+          logo: vectorizer-ai.svg
+          description: Image to vector
+
+- taxonomy: Models
+  icon: fas fa-database
+  links: 
+    - title: Hugging Face
+      url: https://huggingface.co/models
+      logo: huggingface.ico
+      description: Democratize good machine learning
+
+    - title: Ollama
+      url: https://www.ollama.com/
+      logo: ollama.png
+      description: Ollama is a platform that allows you to create, share, and use AI models
+
+    - title: roboflow
+      url: https://roboflow.com/universe
+      logo: roboflow.png
+      description: The world's first computer vision model marketplace
+
+    - title: Unsloth
+      url: https://unsloth.ai/
+      logo: unsloth.png
+      description: The AI model marketplace
+
+- taxonomy: Prompt
+  icon: far fa-comment
+  links: 
+    - title: PromptPerfect
+      url: https://promptperfect.jina.ai/
+      logo: promptperfect.png
+      description: Unlocking the full potential of cue word engineering
+
+- taxonomy: Reader
+  icon: fas fa-book-open-reader
+  links: 
+    - title: NaturalReader
+      url: https://www.naturalreaders.com/index.html
+      logo: naturalreader.png
+      description: Text to speech
+
+- taxonomy: Search
+  icon: fas fa-magnifying-glass
+  links: 
+      - title: Futurepedia
+        url: https://www.futurepedia.io/?sort=popular&pricing=Free
+        logo: futurepedia.ico
+        description: Futurepedia is a search engine for the future. It helps you find the best resources, tools, and products to build the future you want.
+
+      - title: PowerAI
+        url: https://www.powerfulai.tools/
+        logo: powerfulai.png
+        description: Powerful AI tools for everyone
+
+- taxonomy: Video
+  icon: fas fa-video
+  links: 
+    - title: Klap
+      url: https://klap.app/
+      logo: klap.ico
+      description: Klap is a video editing tool that uses AI to help you create videos in minutes
+
+# - taxonomy: Voice
+#   icon: fas fa-microphone
+#   links: 
+
+- taxonomy: Writing
+  icon: fas fa-pen
+  links: 
+    - title: CreativAI
+      url: https://creativai.io/
+      logo: creativai.ico
+      description: Create amazing blog entries, attention-grabbing advertisements, interesting emails, and super cool social media posts in just a few seconds. It's fun and extremely easy!
+
+---

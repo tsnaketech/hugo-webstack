@@ -1,0 +1,430 @@
+---
+
+- taxonomy: Web Disk Resources
+  icon: fas fa-hard-drive fa-lg
+  links:
+    - title: Dropbox
+      url: https://www.dropbox.com/home
+      logo: dropbox.svg
+      description: 
+
+- taxonomy: Icons
+  icon: fas fa-icons fa-lg
+  list:
+    - term: Materials
+      links:
+        - title: Iconfinder
+          url: https://www.iconfinder.com
+          logo: iconfinder.png
+          description: 2,100,000+ free and premium vector icons.
+
+        - title: Icon Archive
+          url: http://www.iconarchive.com/
+          logo: iconarchive.png
+          description: Search 590,912 free icons.
+
+        - title: FindIcons
+          url: https://findicons.com/
+          logo: findicons.png
+          description: Search through 300,000 free icons.
+
+        - title: flaticon
+          url: https://www.flaticon.com/
+          logo: flaticon.ico
+          description: 634,000+ Free vector icons in SVG, PSD, PNG, EPS format or as ICON FONT.
+
+        - title: Font Awesome Icon
+          url: https://fontawesome.com/icons/
+          logo: fontawesome.svg
+          description: The complete set of 675 icons in Font Awesome.
+
+        - title: Iconduck
+          url: https://iconduck.com
+          logo: iconduck.png
+          description: 
+
+        - title: IcoMoonApp
+          url: https://icomoon.io/app/
+          logo: icomoon.png
+          description: Icon Font, SVG, PDF &amp; PNG Generator.
+
+        - title: iconfont
+          url: https://www.iconfont.cn/
+          logo: iconfont.svg
+          description: 
+
+        - title: ionicons
+          url: https://ionic.io/ionicons
+          logo: ionicons.png
+          description: The premium icon font for Ionic Framework.
+
+        - title: Google Icons
+          url: https://fonts.google.com/icons
+          logo: googlefonts.svg
+          description: Google Material Icons.
+
+    - term: Design
+      links:
+        - title: Iconsfeed
+          url: http://www.iconsfeed.com/
+          logo: iconsfeed.png
+          description: iOS icons gallery.
+
+        - title: iOS Icon Gallery
+          url: http://iosicongallery.com/
+          logo: iosicongallery.ico
+          description: Showcasing beautiful icon designs from the iOS App Store.
+
+        - title: World Vector Logo
+          url: https://worldvectorlogo.com/
+          logo: worldvectorlogo.ico
+          description: Brand logos free to download.
+
+        - title: Namecheap
+          url: https://www.namecheap.com/logo-maker/
+          logo: namecheap.png
+          description: Free Logo Maker.
+
+- taxonomy: Bank
+  icon: fas fa-image fa-lg
+  links:
+
+    - title: Pexels
+      url: https://www.pexels.com/fr-fr/
+      logo: pexels.png
+      description: The best free stock photos & videos shared by talented creators.
+
+    - title: Pixabay
+      url: https://pixabay.com/
+      logo: pixabay.png
+      description: Stunning free images & royalty free stock
+
+    - title: Unsplash
+      url: https://unsplash.com/
+      logo: https://unsplash.com/favicon-32x32.png
+      description: Beautiful, free images and photos that you can download and use for any project.
+
+    - title: CleanPNG
+      url: https://www.cleanpng.com/
+      logo: cleanpng.ico
+      description: HD Transparent PNG & Cliparts Images, Free Unlimited Download.
+
+    - title: FreeImages 
+      url: https://www.freeimages.com/
+      logo: freeimages.png
+      description: Free stock photos - high quality stock images. 
+
+    - title: Coverr
+      url: https://coverr.co/
+      logo: coverr.png
+      description: Beautiful Free Stock Video Footage.
+
+    - title: Dareful
+      url: https://www.dareful.com/
+      logo: dareful.png
+      description: Free 4K Stock Video Footage.
+
+    - title: EveryPixel
+      url: https://www.everypixel.com/
+      logo: everypixel.png
+      description: Free Stock Photos and Videos.
+
+    - title: MixKit
+      url: https://mixkit.co/
+      logo: mixkit.png
+      description: Free assets for your next video project.
+
+    - title: PNGTree
+      url: https://fr.pngtree.com/
+      logo: pngtree.svg
+      description: Millions of PNG Images, Backgrounds and Vectors for Free Download.
+
+    - title: Videezy
+      url: https://www.videezy.com/
+      logo: videezy.png
+      description: Free HD Stock Video Footage.
+
+    - title: Videvo
+      url: https://www.videvo.net/
+      logo: videvo.ico
+      description: Free Stock Video Footage.
+
+    - title: Vidsplay
+      url: https://www.vidsplay.com/
+      logo: vidsplay.png
+      description: Free Stock Footage.
+
+    - title: Alphacoders
+      url: https://wall.alphacoders.com/
+      logo: alphacoders.png
+      description: Free Wallpaper.
+
+    - title: Wallhaven
+      url: https://wallhaven.cc/
+      logo: wallhaven.ico
+      description: Wallpapers.
+
+
+- taxonomy: Audio
+  icon: fas fa-music fa-lg
+  links:
+    - title: Tribe of Noise
+      url: https://prosearch.tribeofnoise.com/search/index
+      logo: tribeofnoise.png
+      description:
+
+    - title: Musopen
+      url: https://musopen.org/
+      logo: musopen.png
+      description: Free music.
+
+    - title: SoundCloud
+      url: https://soundcloud.com/discover
+      logo: soundcloud.ico
+      description: Free music.
+
+    - title: YouTube Audio Library
+      url: https://www.youtube.com/@audiolibrary_/videos
+      logo: youtube.ico
+      description: Free music.
+
+    - title: Bensound
+      url: https://www.bensound.com/
+      logo: bensound.png
+      description: Free music.
+
+    - title: FreePD
+      url: https://freepd.com/
+      logo: freepd.png
+      description: Free music.
+
+    - title: Incompetech
+      url: https://incompetech.com/
+      logo: incompetech.ico
+      description: Free music.
+
+    - title: Purple Planet
+      url: https://www.purple-planet.com/
+      logo: purple-planet.ico
+      description: Free music.
+
+    - title: FreeSound
+      url: https://freesound.org/
+      logo: freesound.png
+      description: Free music.
+
+    - title: Audionautix
+      url: https://audionautix.com/
+      logo: audionautix.ico
+      description: Free music.
+
+- taxonomy: Graphic
+  icon: fas fa-pen-nib fa-lg
+  list:
+    - term: Materials
+      links:
+        - title: Freepik
+          url: https://www.freepik.com/
+          logo: freepik.png
+          description: More than a million free vectors, PSD, photos and free icons.
+
+        - title: wallhalla
+          url: https://wallhalla.com/
+          logo: wallhalla.png
+          description: Find awesome high quality wallpapers for desktop and mobile in one place.
+
+        - title: 365PSD
+          url: https://365psd.com/
+          logo: freeimages.png
+          description: Free PSD &amp; Graphics, Illustrations.
+
+        - title: Medialoot
+          url: https://medialoot.com/
+          logo: https://medialoot.com/favicon.ico
+          description: Free &amp; Premium Design Resources &mdash; Medialoot.
+
+        - title: 58pic
+          url: http://www.58pic.com/
+          logo: 58pic.ico
+          description: A website specializing in free design material downloads.
+
+        - title: 588ku
+          url: http://588ku.com/
+          logo: 588ku.ico
+          description: Free png images background material download.
+
+    - term: Website
+      links:
+        - title: Themezy
+          url: https://www.themezy.com/
+          logo: themezy.ico
+          description: Free HTML5 and CSS3 Templates.
+
+- taxonomy: Emoji
+  icon: fas fa-face-smile
+  links:
+    - title: WebFX
+      url: https://www.webfx.com/tools/emoji-cheat-sheet/
+      logo: webfx.png
+      description: 
+
+- taxonomy: Font
+  icon: fas fa-font fa-lg
+  links:
+    - title: Google Font
+      url: https://fonts.google.com/
+      logo: googlefonts.svg
+      description: Making the web more beautiful, fast, and open through great typography.
+
+    - title: Typekit
+      url: https://typekit.com/
+      logo: typekit.ico
+      description: Quality fonts from the world's best foundries.
+
+    - title: Fontsquirrel
+      url: https://www.fontsquirrel.com/
+      logo: fontsquirrel.png
+      description: FREE fonts for graphic designers.
+
+    - title: Urban Fonts
+      url: https://www.urbanfonts.com/
+      logo: urbanfonts.ico
+      description: Download Free Fonts and Free Dingbats.
+
+    - title: FONTS2U
+      url: https://fonts2u.com/
+      logo: fonts2u.png
+      description: Download free fonts for Windows and Macintosh.
+
+    - title: FontM
+      url: http://fontm.com/
+      logo: fontm.ico
+      description: Free Fonts.
+
+    - title: Da Font
+      url: https://www.dafont.com/
+      logo: dafont.ico
+      description: Archive of freely downloadable fonts.
+
+    - title: Abstract Fonts
+      url: http://www.abstractfonts.com/
+      logo: abstractfonts.png
+      description: Abstract Fonts.
+
+- taxonomy: Illustration
+  icon: fas fa-wand-magic fa-lg
+  links:
+    - title: unDraw
+      url: https://undraw.co/illustrations
+      logo: https://undraw.co/apple-touch-icon.png
+      description: 
+
+- taxonomy: Software
+  icon: fas fa-laptop fa-lg
+  list:
+    - term: Windows
+      links:
+        - title: Chocolatey
+          url: https://chocolatey.org/
+          logo: chocolatey.png
+          description: The package manager for Windows.
+
+        - title: Ninite
+          url: https://ninite.com/
+          logo: ninite.png
+          description: Install and Update All Your Programs at Once.
+
+        - title: 7-Zip
+          url: https://www.7-zip.org/
+          logo: 7-zip.ico
+          description: High compression ratio in 7z format with LZMA and LZMA2 compression.
+
+    - term: Library
+      links:
+        - title: AlternativeTo
+          url: https://alternativeto.net/
+          logo: alternativeto.png
+          description: Crowdsourced software recommendations.
+
+        - title: Framalibre
+          url: https://framalibre.org/
+          logo: framalibre.png
+          description: Annuaire du Libre.
+
+        - title: FossHub
+          url: https://www.fosshub.com/
+          logo: fosshub.png
+          description: Free and Open Source Software.
+
+        - title: Nasa
+          url: https://software.nasa.gov/
+          logo: nasa.svg
+          description:
+
+    - term: Other
+      links:
+        - title: Glogg
+          url: http://glogg.bonnefon.org/
+          logo: glogg.png
+          description: Fast, multi-platform log exploration tool.
+          
+        - title: uGet
+          url: http://ugetdm.com/
+          logo: ugetdm.jpg
+          description: Download manager.
+
+- taxonomy: Temporary
+  icon: fas fa-envelope
+  list:
+    - term: Mail
+      links:
+        - title: Emkei
+          url: https://emkei.cz/
+          logo: emkei.ico
+          description: Fake mail generator.
+
+        - title: etm
+          url: https://etempmail.com
+          logo: etempmail.png
+          description: Temporary email address.
+          
+        - title: 临时邮箱
+          url: https://linshiyouxiang.net/
+          logo: linshiyouxiang.ico
+          description: 临时邮箱地址
+
+        - title: Mohmal
+          url: https://www.mohmal.com/fr
+          logo: mohmal.ico
+          description: Temporary email address.
+
+        - title: Tempmail Plus
+          url: https://tempmail.plus/zh/#!
+          logo: tempmail.png
+          description: Temporary email address.
+
+    - term: SMS
+      links:
+        - title: MyTempSMS
+          url: https://fr.mytempsms.com/receive-sms-online/france-phone-number.html
+          logo: mytempsms.ico
+          description: 
+
+        - title: Receive SMS Online
+          url: http://receive-sms-online.info/
+          logo: receive-sms-online.ico
+          description:
+
+        - title: Receive SMS Online
+          url: https://receive-smss.com/
+          logo: receive-smss.ico
+          description:
+
+- taxonomy: Search
+  icon: fas fa-search fa-lg
+  links:
+    - title: Creative Commons
+      url: https://search.creativecommons.org/
+      logo: creativecommons.png
+      description:
+---

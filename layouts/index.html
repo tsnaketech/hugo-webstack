@@ -1,0 +1,21 @@
+{{ $ctx := dict 
+  "page" . 
+  "search" .Site.Params.search
+  "data" .Site.Data.webstack
+}}
+
+{{ partial "header.html" $ctx }}
+
+{{ partial "sidebar.html" $ctx }}
+
+{{ partial "content_header.html" $ctx }}
+
+{{ partial "content_search.html" $ctx }}
+
+{{ partial "content_main.html" $ctx }}
+
+{{ partial "content_footer.html" $ctx }}
+
+{{ partial "modal_search.html" $ctx }}
+
+{{ partial "footer.html" $ctx }}

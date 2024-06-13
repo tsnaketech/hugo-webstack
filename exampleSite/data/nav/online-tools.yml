@@ -1,0 +1,210 @@
+---
+
+- taxonomy: Awesome
+  icon: fas fa-screwdriver-wrench
+  links: 
+    - title: RapidTables
+      url: https://www.rapidtables.com/
+      logo: rapidtables.png
+      description: Online calculators and tools for mathematics, physics, chemistry, and engineering.
+
+- taxonomy: IT
+  icon: fas fa-server
+  links: 
+    - title: CyberChef
+      url: https://gchq.github.io/CyberChef/
+      logo: cyberchef.svg
+      description: A web app for encryption, encoding, compression, and data analysis.
+
+    - title: DNSLeak
+      url: https://www.dnsleaktest.com/
+      logo: dnsleaktest.ico
+      description: Check if your VPN is leaking your DNS.
+
+    - title: ExplainShell
+      url: https://explainshell.com/
+      logo: explainshell.png
+      description: Write down a command-line to see the help text that matches each argument.
+
+    - title: MD5 Decrypt
+      url: https://md5decrypt.net/en/
+      logo: md5decrypt.png
+      description: Decrypt MD5, SHA1, MySQL, NTLM, SHA256, SHA512, Wordpress, and WPA hashes.
+
+    - title: IPLeak
+      url: https://ipleak.net/
+      logo: ipleak.png
+      description: Check your IP address and DNS leak.
+
+    - title: Qualys SSL Labs
+      url: https://www.ssllabs.com/ssltest/
+      logo: ssllabs.ico
+      description: Test your SSL/TLS server configuration.
+
+    - title: Revshells
+      url: https://www.revshells.com/
+      logo: revshells.ico
+      description: Reverse shell generator.
+
+    - title: ShellCheck
+      url: https://www.shellcheck.net/
+      logo: shellcheck.ico
+      description: Finds bugs in your shell scripts.
+
+    - title: SSL Config
+      url: https://ssl-config.mozilla.org/#config=modern
+      logo: mozilla.png
+      description: Mozilla SSL Configuration Generator.
+
+    - title: Webhook.site
+      url: https://webhook.site/
+      logo: webhook.png
+      description: Easily test HTTP webhooks with this handy tool that displays requests instantly.
+
+- taxonomy: Dev
+  icon: fas fa-code
+  links: 
+    - title: Beautifier
+      url: https://beautifier.io/
+      logo: beautifier.png
+      description: Beautify JavaScript, JSON, React.js, HTML, CSS, SCSS, and SASS.
+
+    - title: FreeFormatter
+      url: https://www.freeformatter.com/
+      logo: freeformatter.ico
+      description: Formatters, validators, code minifiers, string escapers, encoders and decoders, message digesters, web resources and more.
+
+- taxonomy: Design Tools
+  icon: fas fa-scissors
+  links: 
+  - title: Adobe Express
+    url: https://www.adobe.com/express/feature/image/remove-background
+    logo: adobe-express.jpg
+    description: Remove image background in seconds.
+  - title: TinyPNG
+    url: https://tinypng.com/
+    logo: tinypng.png
+    description: Optimize your images with a perfect balance in quality and file size.
+  - title: GoQR
+    url: http://goqr.me/
+    logo: goqr.ico
+    description: Create QR codes for free (Logo, T-Shirt, vCard, EPS).
+  - title: Ezgif
+    url: https://ezgif.com
+    logo: ezgif.png
+    description: Simple online GIF maker and toolset for basic animated GIF editing.
+  - title: Screen Sizes
+    url: http://screensiz.es/
+    logo: screensiz.png
+    description: Viewport Sizes and Pixel Densities for Popular Devices.
+  - title: SVGOMG
+    url: https://jakearchibald.github.io/svgomg/
+    logo: svgomg.png
+    description: SVG online compression platform.
+    
+- taxonomy: Document
+  icon: fas fa-file
+  links: 
+    - title: I Love PDF
+      url: https://www.ilovepdf.com/fr
+      logo: ilovepdf.png
+      description: Edit, split, merge, convert, compress, and sign PDF files.
+
+    - title: Online-Convert
+      url: https://www.online-convert.com/
+      logo: online-convert.png
+      description: Convert files like images, video, documents, audio, and more to other formats with this free and fast online converter.
+
+    - title: SmallPDF
+      url: https://smallpdf.com/
+      logo: smallpdf.png
+      description: More productive and work smarter with documents.
+
+    - title: PrintFriendly
+      url: https://www.printfriendly.com/
+      logo: printfriendly.png
+      description: Convert Anything to PDF
+
+- taxonomy: Download
+  icon: fas fa-download
+  links: 
+
+    - title: ClipConverter
+      url: https://www.clipconverter.cc/
+      logo: clipconverter.png
+      description: Free online media conversion application.
+
+    - title: JDownloader
+      url: https://jdownloader.org/
+      logo: jdownloader.ico
+      description: Open source download manager.
+
+    - title: Notube
+      url: https://notube.lol/
+      logo: notube.png
+      description: Free and fast converter.
+
+    - title: SnapTik
+      url: https://snaptik.app/fr
+      logo: snaptik.ico
+      description: No watermark. Quickly. All devices.
+
+- taxonomy: Regex
+  icon: fas fa-pen-nib
+  links: 
+    - title: RegEx101
+      url: https://regex101.com/
+      logo: regex101.ico
+      description: Regular expression tester.
+
+    - title: Regexr
+      url: https://regexr.com/
+      logo: regexr.png
+      description: Learn, build, & test Regular Expressions (RegEx / RegExp). 
+
+- taxonomy: Short link
+  icon: fas fa-link
+  links: 
+    - title: Bitly
+      url: https://bitly.com/
+      logo: bitly.ico
+      description: URL shortener, QR Codes, and landing pages to engage your audience. 
+
+- taxonomy: Text
+  icon: fas fa-t
+  links: 
+
+    - title: DiffChecker
+      url: https://www.diffchecker.com/
+      logo: diffchecker.ico
+      description: Find the difference between two text files.
+      
+    - title: Dillinger
+      url: https://dillinger.io/
+      logo: dillinger.png
+      description: Online Markdown Editor.
+
+    - title: StackEdit
+      url: https://stackedit.io/
+      logo: stackedit.ico
+      description: In-browser Markdown editor.
+
+- taxonomy: Validation
+  icon: fas fa-check
+  links: 
+    - title: JSONLint
+      url: https://jsonlint.com/
+      logo: jsonlint.png
+      description: Validator and Formatter. 
+
+    - title: ShellCheck
+      url: https://www.shellcheck.net/#
+      logo: shellcheck.ico
+      description: Finds bugs in your shell scripts. 
+
+    - title: W3C Validator
+      url: https://validator.w3.org/
+      logo: w3.ico
+      decsription: Markup Validation Service.
+
+---

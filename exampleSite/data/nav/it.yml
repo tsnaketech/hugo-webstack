@@ -1,0 +1,131 @@
+---
+
+- taxonomy: Code
+  icon: fas fa-code
+  list:
+    - term: CSS
+      links: 
+        - title: CodePen
+          url: https://codepen.io/
+          logo: codepen.svg
+          description:
+
+- taxonomy: Learning
+  icon: fas fa-book-open
+  list:  
+    - term: Any
+      links:
+        - title: Geeks for Geeks
+          url: https://www.geeksforgeeks.org/
+          logo: geeksforgeeks.svg
+          description:
+
+        - title: RIP Tutorial
+          url: https://riptutorial.com/
+          logo: riptutorial.png
+          description:
+
+        - title: Tutorialspoint
+          url: https://www.tutorialspoint.com/index.htm
+          logo: tutorialspoint.png
+          description:
+
+        - title: W3 Schools
+          url: https://www.w3schools.com/
+          logo: w3schools.png
+          description:
+
+        - title: w3resource
+          url: https://www.w3resource.com/
+          logo: w3resource.png
+          description:
+
+    - term: ASM
+      links:
+        - title: Azaria Labs
+          url: https://azeria-labs.com/tcp-reverse-shell-in-assembly-arm-32-bit/
+          logo: azeria-labs.ico
+          description:
+
+        - title: Gladir
+          url: https://www.gladir.com/LEXIQUE/ASM/DICTIONN.HTM
+          logo: https://www.gladir.com/favicon.ico
+          description:
+  
+    - term: Java
+      links:
+        - title: JM Doudoux
+          url: https://www.jmdoudoux.fr/java/dej/index.htm
+          logo: jmdoudoux.ico
+          description: 
+
+    - term: Network
+      links:
+        - title: FrameIP
+          url: https://www.frameip.com/
+          logo: frameip.ico
+          description: 
+
+    - term: Web
+      links:
+        - title: Getting started with the web
+          url: https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web
+          logo: mdnmozilla.png
+          description: 
+          
+- taxonomy: Operating System
+  icon: fas fa-server
+  links:
+    - title: ChimeraOS
+      url: https://chimeraos.org/
+      logo: chimeraos.ico
+      description: Bringing the console gaming experience to PC
+
+- taxonomy: Proxmark
+  icon: fab fa-nfc-symbol
+  list:
+
+- taxonomy: Python
+  icon: fab fa-python
+  links: 
+    - title: Python Central
+      url: https://www.pythoncentral.io/
+      logo: pythoncentral.png
+      description: 
+
+    - title: Python Docs
+      url: https://docs.python.org/fr/3/
+      logo: python.svg
+      description:
+
+    - title: Python Spot
+      url: https://pythonspot.com/
+      logo: python.svg
+      description:
+
+    - title: Python Wiki
+      url: https://wiki.python.org/moin/UsefulModules
+      logo: python.svg
+      description:
+
+    - title: Real Python
+      url: https://realpython.com/
+      logo: realpython.png
+      description:
+
+- taxonomy: Raspberry Pi
+  icon: fab fa-raspberry-pi
+  links:
+    - title: Raspberry Pi
+      url: https://www.raspberrypi.com/
+      logo: raspberry-pi.svg
+      description:
+
+- taxonomy: Other
+  icon:
+  links:
+    - title: ifixit
+      url: https://fr.ifixit.com/
+      logo: ifixit.png
+      description: Repair your stuff
+---
