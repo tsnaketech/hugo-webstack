@@ -23,7 +23,7 @@
                         <ul class="navbar-nav site-menu" style="margin-right: 16px;">
                             {{ range page.Site.Data.headers.items }}
                                 <li {{ if .list }}class="menu-item-has-children"{{ end }}>
-                                    <a href="{{ .link }}">
+                                    <a href="{{ relLangURL .link }}">
                                         <i class="{{ .icon }} fa-lg mr-2"></i>
                                         <span>{{ .name }}</span>
                                     </a>

@@ -117,10 +117,10 @@
                                                     {{ end }}
                                                 {{ else }}
                                                     {{ if page.Site.Params.defaultLogo }}
-                                                        <img class="rounded-circle lazy" src="{{ page.Site.Params.logosPath }}/{{ .logo }}" data-src="{{ page.Site.Params.logosPath }}/{{ .logo }}"
+                                                        <img class="rounded-circle lazy" src="{{ relLangURL page.Site.Params.logosPath }}/{{ .logo }}" data-src="{{ relLangURL page.Site.Params.logosPath }}/{{ .logo }}"
                                                             onerror="javascript:this.src='{{ page.Site.Params.defaultLogo }}'" alt="{{ .title }}">
                                                     {{ else }}
-                                                        <img class="rounded-circle lazy" src="{{ page.Site.Params.logosPath }}/{{ .logo }}" data-src="{{ page.Site.Params.logosPath }}/{{ .logo }}"
+                                                        <img class="rounded-circle lazy" src="{{ relLangURL page.Site.Params.logosPath }}/{{ .logo }}" data-src="{{ relLangURL page.Site.Params.logosPath }}/{{ .logo }}"
                                                             onerror="javascript:this.src='{{ page.Site.Params.logosPath }}/{{ .logo }}'" alt="{{ .title }}">
                                                     {{ end }}
                                                 {{ end }}
