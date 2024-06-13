@@ -37,19 +37,19 @@
                                                 <div class="url-img mr-2 d-flex align-items-center justify-content-center">
                                                     {{ if findRE "http.*?(.|\n)*?" .logo }}
                                                         {{ if page.Site.Params.defaultLogo }}
-                                                            <img class="rounded-circle lazy" src="{{ relLangURL .logo }}" data-src="{{ relLangURL .logo }}" 
-                                                                onerror="javascript:this.src='{{ page.Site.Params.defaultLogo }}'" alt="{{ .title }}" width="40">
+                                                            <img class="rounded-circle lazy" src="{{ .logo }}" data-src="{{ .logo }}" 
+                                                                onerror="javascript:this.src='{{ relLangURL page.Site.Params.defaultLogo }}'" alt="{{ .title }}" width="40">
                                                         {{ else }}
-                                                            <img class="rounded-circle lazy" src="{{ relLangURL .logo }}" data-src="{{ relLangURL .logo }}" 
+                                                            <img class="rounded-circle lazy" src="{{ .logo }}" data-src="{{ .logo }}" 
                                                                 onerror="javascript:this.src='{{ .logo }}'" alt="{{ .title }}" width="40">
                                                         {{ end }}
                                                     {{ else }}
                                                         {{ if page.Site.Params.defaultLogo }}
                                                             <img class="rounded-circle lazy" src="{{ relLangURL page.Site.Params.logosPath }}/{{ .logo }}" data-src="{{ relLangURL page.Site.Params.logosPath }}/{{ .logo }}" 
-                                                                onerror="javascript:this.src='{{ page.Site.Params.defaultLogo }}'" alt="{{ .title }}">
+                                                                onerror="javascript:this.src='{{ relLangURL page.Site.Params.defaultLogo }}'" alt="{{ .title }}">
                                                         {{ else }}
                                                             <img class="rounded-circle lazy" src="{{ relLangURL page.Site.Params.logosPath }}/{{ .logo }}" data-src="{{ relLangURL page.Site.Params.logosPath }}/{{ .logo }}" 
-                                                                onerror="javascript:this.src='{{ page.Site.Params.logosPath }}/{{ .logo }}'" alt="{{ .title }}">
+                                                                onerror="javascript:this.src='{{ relLangURL page.Site.Params.logosPath }}/{{ .logo }}'" alt="{{ .title }}">
                                                         {{ end }}
                                                     {{ end }}
                                                     </div>
@@ -95,7 +95,7 @@
                             {{ if .qrcode }}
                                 {{ if findRE "http.*?(.|\n)*?" .qrcode }}
                                     <a href="javascript:" target="" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" data-html="true" 
-                                    title="<img src='{{ relLangURL .qrcode }}' width='128'>">
+                                    title="<img src='{{ .qrcode }}' width='128'>">
                                 {{ else }}
                                     <a href="javascript:" target="" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" data-html="true"
                                     title="<img src='{{ relLangURL page.Site.Params.logosPath }}/{{ .qrcode }}' width='128'>">
@@ -109,11 +109,11 @@
                                             <div class="url-img mr-2 d-flex align-items-center justify-content-center">
                                                 {{ if findRE "http.*?(.|\n)*?" .logo }}
                                                     {{ if page.Site.Params.defaultLogo }}
-                                                        <img class="rounded-circle lazy" src="{{ relLangURL .logo }}" data-src="{{ relLangURL .logo }}"
+                                                        <img class="rounded-circle lazy" src="{{ .logo }}" data-src="{{ .logo }}"
                                                             onerror="javascript:this.src='{{ relLangURL page.Site.Params.defaultLogo }}'" alt="{{ .title }}">
                                                     {{ else }}
-                                                        <img class="rounded-circle lazy" src="{{ relLangURL .logo }}" data-src="{{ relLangURL .logo }}"
-                                                            onerror="javascript:this.src='{{ relLangURL .logo }}'" alt="{{ .title }}">
+                                                        <img class="rounded-circle lazy" src="{{ .logo }}" data-src="{{ .logo }}"
+                                                            onerror="javascript:this.src='{{ .logo }}'" alt="{{ .title }}">
                                                     {{ end }}
                                                 {{ else }}
                                                     {{ if page.Site.Params.defaultLogo }}
