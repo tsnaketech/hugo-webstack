@@ -105,3 +105,4 @@ Part of the code in this topic refers to the following open source projects, tha
 - Favorites management with an additional yaml entry.
 - Review the SEO section.
 - Change weather api.
+- Adapting headers for the mobile version.
