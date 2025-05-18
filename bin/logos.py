@@ -11,7 +11,7 @@ import httpx
 
 user_agent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.47 Safari/537.36'
 headers = {'User-Agent': user_agent}
-folder = "../static/assets/images/logos/"
+folder = "/root/navigation/themes/hugo-webstack/static/assets/images/logos/"
 w, h = 128, 128
 
 def get_args():
@@ -109,7 +109,7 @@ def save_icon(data_picture, args, folder, format, url=""):
     Returns:
         None
     """
-    filename = get_filename(folder, format, args, url)
+    filename = get_filename(folder, format, args)
     with open(filename, 'wb') as file:
         file.write(data_picture)
 
